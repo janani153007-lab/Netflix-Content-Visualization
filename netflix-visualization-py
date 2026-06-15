@@ -1,0 +1,14 @@
+print("Netflix Content Visualization")
+
+movies = 6131
+tv_shows = 2676
+total_content = movies + tv_shows
+
+movie_percentage = (movies / total_content) * 100
+tv_percentage = (tv_shows / total_content) * 100
+
+print("Total Content:", total_content)
+print("Movies:", movies)
+print("TV Shows:", tv_shows)
+print("Movie Percentage:", round(movie_percentage, 2), "%")
+print("TV Show Percentage:", round(tv_percentage, 2), "%")
